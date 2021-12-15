@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset = "UTF - 8">
+        <meta http-equiv="X-UR_Compatible" content = "iE-edge">
+        <meta name = "viewpoint" content = "width=device-width, initial - scale = 1.0">
+        <title> Model Deployment </title>
+        <link href="Stylesheet.css" rel="stylesheet">
+    </head>
+
+<body>
+    <h1>Model Demployment</h1>
+    <div id="wrapper">
+    <h2>Please Select a file</h2>
+    <form action  = "{{url_for('after')}}", method = 'POST' enctype = 'multipart/form-data'>
+         <input type = "file" name = 'file1'>
+        <input type = "submit" name = "btn">
+    </form>
+    
+</div>
+<img src="./face.jpeg" alt="expression">
+</body>
+
+</html>
